@@ -1,0 +1,248 @@
+<style>
+  .uber_btn {
+    height: 40px;
+    width: 130px;
+    border: none;
+    border-radius: 2px;
+    background-color: black;
+    color: white;
+    transition: opacity 0.15s;
+
+  }
+
+  .uber_btn:hover {
+    opacity: 0.8;
+  }
+
+  .uber_btn:active {
+    opacity: 0.5;
+  }
+
+  .amazon_btn {
+    height: 40px;
+    width: 180px;
+    color: black;
+    background-color: rgb(255, 216, 20);
+    border: none;
+    border-radius: 20px;
+    font-size: 17px;
+    transition: background-color 0.15s;
+  }
+
+  .amazon_btn:hover {
+    background-color: rgb(190, 162, 22);
+  }
+
+  .amazon_btn:active {
+    opacity: 0.5;
+  }
+
+  .github_btn {
+    width: 90px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    background-color: rgb(46, 164, 79);
+    transition: box-shadow 0.15s;
+  }
+
+  .github_btn:hover {
+    box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.4);
+  }
+  .github_btn:active {
+    opacity: 0.6;
+  }
+
+  .bootstrap1_btn {
+    height: 40px;
+    width: 140px;
+    border: none;
+    color: white;
+    background-color: rgb(121, 82, 179);
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 15px;
+    transition: background-color 0.15s, opacity 0.15s;
+  }
+
+  .bootstrap1_btn:hover {
+    background-color: rgb(89, 57, 137);
+  }
+  .bootstrap1_btn:active {
+    opacity: 0.5;
+  }
+
+  .bootstrap2_btn {
+    width: 140px;
+    height: 40px;
+    background-color: white;
+    color: rgb(108, 117, 125);
+    border-style: solid;
+    border-color: rgb(108, 117, 125);
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 12px;
+    transition: background-color 0.15s, color 0.15s, opacity 0.15s;
+
+  }
+
+  .bootstrap2_btn:hover {
+    background-color: rgb(108, 117, 125);
+    color: white;
+  }
+  .bootstrap2_btn:active {
+    opacity: 0.6;
+  }
+
+  .linkedin1_btn {
+    height: 40px;
+    width: 210px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(10, 102, 194);
+    transition: background-color 0.15s, opacity 0.15s;
+  }
+
+  .linkedin1_btn:hover {
+    background-color: rgb(8, 84, 160);
+  }
+  .linkedin1_btn:active {
+    opacity: 0.5;
+  }
+
+  .linkedin2_btn {
+    height: 40px;
+    width: 80px;
+    font-weight: bold;
+    border-style: solid;
+    border-radius: 20px;
+    color: rgb(10, 102, 194);
+    background-color: white;
+    font-size: 15px;
+    border-color: rgb(10, 102, 194);
+    transition: background-color 0.15s,
+      border-width 0.15s, opacity 0.15s;
+    margin-left: 10px;
+  }
+
+  .linkedin2_btn:hover {
+    border-width: 3px;
+    background-color: rgb(216, 221, 227);
+  }
+  .linkedin2_btn:active {
+    opacity: 0.6;
+  }
+
+  .link_class {
+    font-size: 19px;
+    color: rgb(0, 113, 133);
+    transition: color 0.15s, 
+      opacity 0.15s;
+  }
+
+  .link_class:hover {
+    color: red;
+  }
+  .link_class:active {
+    opacity: 0.4;
+  }
+
+  .product_class {
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  .price_class {
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(0, 118, 0);
+  }
+
+  .delivery_class {
+    font-size: 19px;
+  }
+
+  .cart_btn {
+    height: 35px;
+    width: 130px;
+    border: none;
+    color: black;
+    background-color: rgb(255, 216, 20);
+    border-radius: 17.5px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.15s, opacity 0.15s;
+  }
+
+  .cart_btn:hover {
+    background-color: rgb(195, 164, 11);
+
+  }
+  .cart_btn:active {
+    opacity: 0.5;
+  }
+
+
+  .buy_btn {
+    height: 35px;
+    width: 130px;
+    border: none;
+    border-radius: 17.5px;
+    font-size: 15px;
+    color: black;
+    background-color: rgb(255, 164, 28);
+    cursor: pointer;
+    transition: background-color 0.15s, 
+      opacity 0.15s;
+
+  }
+  .buy_btn:hover {
+    background-color: rgb(227, 138, 6);
+  }
+  .buy_btn:active {
+    opacity: 0.5;
+  }
+
+</style>
+
+<p>3a. Uber</p>
+<button class="uber_btn">Request now</button>
+<hr>
+
+<p>3b. Amazon</p>
+<button class="amazon_btn">Add to Cart</button>
+<hr>
+
+<p>3c. Github</p>
+<button class="github_btn">Sign up</button>
+<hr>
+
+<p>3d. Bootstrap</p>
+<button class="bootstrap1_btn">Get started</button>
+<button class="bootstrap2_btn">Download</button>
+<hr>
+
+<p>3e. Linkedin</p>
+<button class="linkedin1_btn">Apply on company website</button>
+<button class="linkedin2_btn">Save</button>
+<hr>
+
+<a href="https://www.amazon.in" target="_blank" class="link_class">Back to Amazon</a>
+
+<p>3f. challenge exercise</p>
+
+<p class="product_class">Kawasaki Ninja ZX6RR</p>
+
+<p class="price_class">$7999 - in stock</p>
+
+<p class="delivery_class">Free delivery tomorrow.</p>
+
+<button class="cart_btn">Add to Cart</button>
+<button class="buy_btn">Buy now</button>
+<hr>
