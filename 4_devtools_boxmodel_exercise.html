@@ -1,0 +1,338 @@
+<style>
+  .subscribe_class {
+    border: none;
+    color: white;
+    background-color: rgb(255, 0, 0);
+    border-radius: 3px;
+    padding: 10px 15px;
+    transition: opacity 0.15s;
+    vertical-align: top;
+    cursor: pointer;
+  }
+  .subscribe_class:hover {
+    opacity: 0.7;
+  }
+  .subscribe_class:active {
+    opacity: 0.5;
+  }
+
+  .join_class {
+    padding: 9px 15px;
+    border-width: 1px;
+    border-radius: 3px;
+    border-style: solid;
+    background-color: white;
+    color: rgb(29, 161, 242);
+    border-color: rgb(29, 161, 242);
+    margin: 0 8px;
+    transition: background-color 0.15s, 
+      color 0.15s, opacity  0.15s;
+    cursor: pointer;  
+    
+  }
+  .join_class:hover {
+    background-color: rgb(29, 161, 242);
+    color: white;
+  }
+  .join_class:active {
+    opacity: 0.7;
+  }
+
+  .tweet_class {
+    background-color: rgb(29, 161, 242);
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px 17px;
+    border-radius: 17px;
+    transition: box-shadow 0.15s, opacity 0.15s;
+    cursor: pointer;
+  }
+  .tweet_class:hover {
+    box-shadow: 4px 7px 8px rgba(0, 0, 0, 0.4);
+  }
+  .tweet_class:active {
+    opacity: 0.6;
+  }
+
+  .uber_class {
+    border: none;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    padding: 12px 20px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+  }
+  .uber_class:hover {
+    opacity: 0.8;
+  }
+  .uber_class:active {
+    opacity: 0.5;
+  }
+
+  .amazon_class {
+    border: none;
+    color: black;
+    background-color: rgb(255, 216, 20);
+    border-radius: 20px;
+    padding: 10px 35px;
+    font-size: 17px;
+    cursor: pointer;
+    transition: background-color 0.15s, opacity 0.15s;
+  }
+  .amazon_class:hover {
+    background-color: rgb(218, 182, 4);
+  }
+  .amazon_class:active {
+    opacity: 0.6;
+  }
+
+  .github_class {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    background-color: rgb(46, 164, 79);
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: box-shadow 0.15s, opacity 0.15s;
+  }
+  .github_class:hover {
+    box-shadow: 4px 7px 6px rgba(0, 0, 0, 0.3);
+  }
+  .github_class:active {
+    opacity: 0.6;
+  }
+
+  .bootstrap1_class {
+    vertical-align: top;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px 24px;
+    border-radius: 3px;
+    color: white;
+    background-color: rgb(121, 82, 179);
+    cursor: pointer;
+    transition: background-color 0.15s, opacity 0.15s;
+  }
+  .bootstrap1_class:hover {
+    background-color: rgb(92, 65, 134);
+  }
+  .bootstrap1_class:active {
+    opacity: 0.6;
+  }
+
+  .bootstrap2_class {
+    padding: 8px 24px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: white;
+    color: rgb(108, 117, 125);
+    border-color: rgb(108, 117, 125);
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 2px;
+    margin-left: 8px;
+    cursor: pointer;
+    transition: color 0.15s, opacity 0.15s,
+      background-color  0.15s;
+    vertical-align: top;
+  }
+  .bootstrap2_class:hover {
+    color: white;
+    background-color: rgb(108, 117, 125);
+  }
+  .bootstrap2_class:active {
+    opacity: 0.7;
+  }
+
+  .linkedin1_class {
+    color: white;
+    background-color: rgb(10, 102, 194);
+    padding: 10px 16px;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.15s, opacity 0.15s;
+  }
+  .linkedin1_class:hover {
+    background-color: rgb(7, 82, 157);
+  }
+  .linkedin1_class:active {
+    opacity: 0.7;
+  }
+
+  .linkedin2_class {
+    background-color: white;
+    color: rgb(10, 102, 194);
+    padding: 8px 16px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: rgb(10, 102, 194);
+    margin-left: 8px;
+    cursor: pointer;
+    transition: border-width 0.15s, background-color 0.15s, opacity 0.15;
+  }
+  .linkedin2_class:hover {
+    border-width: 3px;
+    background-color: rgb(175, 192, 210);
+  }
+  .linkedin2_class:active {
+    opacity: 0.7;
+  }
+
+  .back_class {
+    padding: 8px 5px;
+    margin-right: 5px;
+  }
+  a {
+    margin: 0 3px;
+  }
+  .next_class {
+    padding: 8px 5px;
+    margin-left: 5px;
+  }
+
+  .stretch_class {
+    border: none;
+    background-color: green;
+    color: white;
+    padding: 5px 14px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: padding 1s;
+  }
+  .stretch_class:hover {
+    padding: 15px 30px;
+  }
+
+  .click_class {
+    border: none;
+    padding: 10px 20px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    color: white;
+    background-color: green;
+    cursor: pointer;
+    font-size: 16px;
+    transition: box-shadow 0.15s, margin 0.15s;
+
+  }
+  .click_class:active {
+    box-shadow: none;
+    margin: 2px 0 0 2px;
+  }
+
+  .one_class {
+    border: none;
+    padding: 10px 16px;
+    font-size: 15px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    margin: 0 12px;
+    vertical-align: top;
+    transition: padding 0.15s, margin 0.15s;
+
+
+  }
+  .one_class:hover {
+    padding: 10px 24px;
+    margin: 0 4px;
+  }
+
+  .two_class {
+    border: none; 
+    padding: 10px 16px; 
+    font-size: 15px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    margin: 0 12px;
+    transition: padding 0.15s, margin  0.15s;
+  }
+  .two_class:hover {
+    padding: 10px 24px;
+    margin: 0 4px;
+  }
+
+  .three_class {
+    padding: 10px 16px;
+    font-size: 15px;
+    margin: 0 12px;
+    background-color: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: padding 0.15s, margin 0.15s;
+
+  }
+  .three_class:hover {
+    padding: 10px 24px;
+    margin: 0 4px;
+  }
+
+
+</style>
+
+<p>4. css box model</p>
+<button class="subscribe_class">SUBSCRIBE</button>
+
+<button class="join_class">JOIN</button>
+
+<button class="tweet_class">Tweet</button>
+<hr>
+
+<p>4a. uber</p>
+<button class="uber_class">Request now</button>
+<hr>
+
+<p>4b. amazon</p>
+<button class="amazon_class">Add to Cart</button>
+<hr>
+
+<p>4c. github</p>
+<button class="github_class">Sign up</button>
+<hr>
+
+<p>4d. bootstrap</p>
+<button class="bootstrap1_class">Get started</button>
+<button class="bootstrap2_class">Download</button>
+<hr>
+
+<p>4e. linkedin</p>
+<button class="linkedin1_class">Apply on company website</button>
+<button class="linkedin2_class">Save</button>
+<hr>
+
+<p>4h. pagination</p>
+<button class="back_class">Back</button>
+<a href="">1</a>
+<a href="">2</a>
+<a href="">3</a>
+<a href="">4</a>
+<a href="">5</a>
+<button class="next_class">Next</button>
+<hr>
+
+<p>4i. stretch</p>
+<button class="stretch_class">Stretch</button>
+<hr>
+
+<p>4j. 3D click</p>
+<button class="click_class">Shadow</button>
+<hr>
+
+<p>4k. margin and padding together</p>
+<button class="one_class">One</button>
+<button class="two_class">Two</button>
+<button class="three_class">Three</button>
+<hr>
+
+
+
