@@ -1,0 +1,119 @@
+.uber_btn {
+  background-color: black;
+  color: white;
+  height: 40px;
+  width: 126px;
+  border: none;
+  font-size: 15px;
+
+}
+
+.amazon_btn {
+  background-color: rgb(255, 216, 20);
+  color: black;
+  height: 40px;
+  width: 200px;
+  border: none;
+  border-radius: 20px;
+  font-size: 17px;
+}
+
+.github_btn {
+  background-color: rgb(46, 164, 79);
+  color: white;
+  font-weight: bold;
+  border: none;
+  height: 40px;
+  width: 100px;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+.bootstrap1_btn {
+  background-color: rgb(121, 82, 179);
+  color: white;
+  font-weight: bold;
+  border: none;
+  height: 40px;
+  width: 130px;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+.bootstrap2_btn {
+  background-color: white;
+  color: rgb(108, 117, 125);
+  border-color: rgb(108, 117, 125);
+  border-style: solid;
+  height: 40px;
+  width: 130px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 4px;
+  margin-left: 10px;
+
+}
+
+.linkedin1_btn {
+  background-color: rgb(10, 102, 194);
+  color: white;
+  height: 50px;
+  width: 300px;
+  border: none;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.linkedin2_btn {
+  background-color: white;
+  color: rgb(10, 102, 194);
+  border-style: solid;
+  border-color: rgb(10, 102, 194);
+  height: 50px;
+  width: 100px;
+  border-radius: 25px;
+  border-width: 1.5px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.product_name {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.price_value {
+  color: rgb(0, 118, 0);
+  font-weight: bold;
+  font-size: 20px;
+
+}
+
+.delivery_status {
+  font-size: 21px;
+}
+
+.cart_btn {
+  background-color: rgb(255, 216, 20);
+  height: 40px;
+  width: 140px;
+  border: none;
+  border-radius: 20px;
+  font-size: 17px;
+  
+}
+
+.buy_btn {
+  height: 40px;
+  width: 140px;
+  border-radius: 20px;
+  font-size: 17px;
+  border: none;
+  background-color: rgb(255, 164, 28);
+}
+
+.link_address {
+  color: rgb(0, 113, 133);
+  font-size: 22px;
+}

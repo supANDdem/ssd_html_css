@@ -1,0 +1,176 @@
+.this_class {
+  font-family: Tahoma;
+  font-weight: bold;
+  font-size: 20px;
+
+}
+
+.biggest_class {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 0px;
+}
+
+.sales_class {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-size: 18px;
+  color: red;
+  margin-top: 8px;
+}
+
+.html_class {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  margin: 0;
+  
+}
+
+.beginner_class {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: grey;
+  font-size: 14px;
+  margin: 3px 0 0 0;
+  
+}
+
+.in_class {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 310px;
+  line-height: 21px;
+  margin: 20px 0 0 0;
+
+}
+
+.get_class {
+  background-color: green;
+  color: white;
+  border: none;
+  margin: 16px 0 0 0;
+  padding: 6px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.shopping_class {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  margin: 0;
+}
+
+.see_class {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  text-align: center;
+
+}
+
+.learn_class {
+  font-family: Arial, Helvetica, sans-serif;
+  color: blue;
+  font-size: 14px;
+  text-align: center;
+}
+
+.new_class {
+  text-align: center;
+  color: red;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  margin: 0 0 6px 0;
+}
+
+.macbook_class {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0 0 2px 0;
+}
+
+.supercharged_class {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  margin: 0 0 10px 0;
+}
+
+.from_class {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin: 0 0 10px 0;
+}
+
+.buy_class {
+  text-align: center;
+  border: none;
+  padding: 6px 10px;
+  background-color: blue;
+  color: white;
+  border-radius: 13.5px;
+  margin: 0 0 0 280px;
+  cursor: pointer;
+}
+
+.usd_class {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  margin: 0 0 6px 0;
+}
+.usd_span {
+  color: grey;
+  font-size: 15px;
+}
+
+.today_class {
+  font-family: Arial, Helvetica, sans-serif;
+  color: green;
+  font-size: 15px;
+  margin: 0 0 8px 0;
+}
+
+.after_class {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  color: grey;
+
+}
+.after_span {
+  color: red;
+}
+
+.freecodecamp_class {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0 0 8px 0;
+
+}
+.freecodecamp_span {
+  color: grey;
+  font-weight: normal;
+
+}
+
+.as_class {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 0 20px 0;
+  width: 510px;
+  font-size: 16px;
+}
+
+.here_class {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+.here_span {
+  color: blue;
+}

@@ -1,0 +1,23 @@
+.model_class {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0 0 12px;
+}
+
+.order_class {
+  text-align: center;
+  font-size: 20px;
+  margin: 0;
+}
+
+.touchless_span {
+  text-decoration: underline;
+}
+.touchless_span:hover {
+  cursor: pointer;
+}
+
+p {
+  font-family: Montserrat;
+}
