@@ -1,0 +1,101 @@
+.img_class {
+  width: 200px;
+  border-radius: 12px;
+}
+
+.img2_class {
+  width: 200px;
+  height: 200px;
+  border-style: solid;
+  /* object-fit: contain; */
+  object-fit: cover;
+  object-position: center;
+
+}
+
+.img3_class {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+
+.input_class {
+  font-size: 16px;
+  border-radius: 8px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: grey;
+  padding: 8px 10px;
+
+}
+
+.input2_class {
+  font-size: 14px;
+  border: none;
+  width: 50%;
+  padding: 12px 8px 12px 8px;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.5);
+  border-radius: 18px;
+}
+
+.email_class {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 0 3px 0;
+  font-size: 14px;
+
+}
+.input3_class {
+  border-style: solid;
+  border-width: 1px;
+  width: 340px;
+  height: 20px;
+  border-radius: 3px;
+  margin: 0 0 12px 0;
+}
+.by_class {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  margin: 0 0 14px 0;
+
+}
+.agree_class {
+  width: 350px;
+  border: none;
+  color: white;
+  background-color: rgb(48, 48, 188);
+  border-radius: 30px;
+  padding: 10px 0;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  margin: 0;
+
+}
+
+.zoro_class {
+  width: 50px;
+  border: none;
+  border-radius: 25px;
+  vertical-align: middle;
+  margin: 0 6px 0 0 ;
+  object-fit: cover;
+}
+
+.input4_class {
+  vertical-align: middle;
+  font-family: Arial, Helvetica, sans-serif;
+  color: grey;
+  font-size: 15px;
+  border: none;
+  margin: 0;
+  width: 300px;
+}
+.tweet_class {
+  border: none;
+  background-color: rgb(49, 150, 213);
+  color: white;
+  padding: 8px 10px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: bold;
+  vertical-align: middle;
+}
