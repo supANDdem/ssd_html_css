@@ -1,0 +1,60 @@
+/* 10e. exercise */
+.ten_e_img {
+  width: 130px;
+  height: 130px;
+  object-fit: contain;
+  object-position: center;
+}
+.ten_e_img2 {
+  width: 20px;
+  height: 20px;
+  border-radius: 13.5px;
+}
+p, img, div, button {
+  margin: 0;
+}
+.hl_div1 {
+  display: inline-block;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.3);
+  margin-right: 12px;
+}
+.ten_e_title {
+  font-weight: bold;
+  font-size: 16px;
+  width: 130px;
+}
+.ten_e_episodes {
+  font-size: 14px;
+  color: grey;
+}
+.ten_e_button {
+  border: none;
+  background-color: rgb(23, 130, 223);
+  color: white;
+  padding: 8px 10px;
+  border-radius: 4px;
+  transition: background-color 0.15s,
+    color 0.15s, opacity 0.15s;
+}
+.ten_e_button:hover {
+  background-color: white;
+  color: rgb(23, 130, 223);
+}
+.ten_e_button:active {
+  opacity: 0.8;
+}
+.hl_div2,
+.hl_div3 {
+  display: inline-block;
+  vertical-align: middle;
+}
+.vl_div4,
+.vl_div2,
+.vl_div3 {
+  margin: 4px 4px;
+}
+.ten_e_title_3 {
+  font-size: 14px;
+  font-weight: bold;
+}
