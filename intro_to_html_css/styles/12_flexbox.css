@@ -1,0 +1,173 @@
+/* 12a. exercise */
+.twelve_a_flexbox {
+  display: flex;
+  flex-direction: row;
+}
+.taf_div_1 {
+  width: 200px;
+}
+.taf_div_2 {
+  width: 75px;
+}
+
+/* 12b. exercise */
+.twelve_b_flexbox {
+  display: flex;
+}
+.tbf_div_1 {
+  background-color: lightblue;
+  width: 50px;
+}
+.tbf_div_2 {
+  background-color: lightpink;
+  flex: 1;
+}
+.tbf_div_3 {
+  background-color: lightblue;
+  width: 75px;
+}
+
+/* 12c. exercise */
+.twelve_c_flexbox {
+  display: flex;
+  justify-content: space-between;
+
+}
+.tcf_div1 {
+  background-color: lightpink;
+}
+
+/* 12d. exercise */
+.twelve_d_flexbox {
+  display: flex;
+  height: 50px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: grey;
+  justify-content: space-between;
+  align-items: center;
+}
+.tdf_div {
+  background-color: lightpink;
+}
+
+/* 12e. exercise */
+.container {
+  width: 300px;
+  border-style: solid;
+  border-width: 0.5px;
+  border-color: grey;
+  border-radius: 3px;
+}
+.e12_div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 6px 10px;
+}
+.name {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.num {
+  background-color: rgb(0, 157, 255);
+  color: white;
+  padding: 4px 8px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+/* 12f. exercise */
+.flexbox {
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  align-items: center;
+  justify-content: space-between;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: blueviolet;
+  color: white;
+}
+.home_div {
+  font-weight: bold;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.download_btn {
+  border-color: white;
+  background-color: blueviolet;
+  color: white;
+  border-style: solid;
+  border-width: 1px;
+  margin-right: 10px;
+  padding: 8px 8px;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+}
+.search_inp {
+  flex: 1;
+  max-width: 300px;
+  padding: 8px 18px;
+  border-radius: 20px;
+  border: none;
+  margin-right: 10px;
+  margin-left: 10px;
+  transition: box-shadow 0.15s;
+}
+
+.search_inp:active {
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+}
+.download_btn:hover {
+  background-color: white;
+  color: blueviolet;
+}
+.download_btn:active {
+  opacity: 0.8;
+}
+
+/* 12g. exercise */
+.hl_img {
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+}
+.hl_flexbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.hl_btn {
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(0, 149, 255);
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 6px 10px;
+}
+.vl {
+  font-weight: bold;
+  margin-left: 8px;
+  margin-right: 20px;
+  width: 195px;
+  font-size: 14px;
+}
+.vl_des {
+  font-weight: normal;
+  color: grey;
+}
+.vl_des2 {
+  font-weight: normal;
+  color: grey;
+  font-size: 13px;
+}
